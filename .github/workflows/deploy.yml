@@ -1,4 +1,18 @@
-- name: WordPress Plugin Deploy
+name: Deploy to WordPress.org
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: WordPress Plugin Deploy
         uses: WordPress/action-deploy-to-wordpress-org@master
         env:
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
