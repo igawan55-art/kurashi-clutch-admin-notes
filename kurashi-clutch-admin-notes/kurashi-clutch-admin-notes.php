@@ -3,7 +3,7 @@
 Plugin Name: kurashi-clutch Admin Notes and Wiki
 Plugin URI: 
 Description: A professional administration productivity suite featuring dashboard notes, page-specific memos, a secure hierarchical Wiki, and advanced color-coded admin alerts. / ダッシュボード、各ページの編集画面にメモを残す機能に加え、管理画面にアラートを表示し、階層化されたWikiを管理できるプラグインです。
-Version: 1.0.0
+Version: 1.0.1
 Author: igawan55
 Author URI: 
 License: GPLv2 or later
